@@ -1,0 +1,24 @@
+.conteiner {
+    background-color: azure;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formConteiner{
+    height: 400px;
+    width: 200px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+
+}
+
+.erroMessage{
+    color: red;
+}

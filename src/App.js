@@ -1,10 +1,11 @@
 
-import LoginPage from './components/pages/LoginPage';
+import UserList from './components/pages/UserList';
 
 function App() {
   return (
    <div>
-    <LoginPage />
+
+    <UserList />
    </div>
   );
 }

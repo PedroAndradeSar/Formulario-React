@@ -1,12 +1,14 @@
 
-import UserList from './components/pages/UserList';
+import CreateUser from './components/pages/CreateUser';
+import { ChakraProvider } from '@chakra-ui/react'
+
 
 function App() {
   return (
-   <div>
+   <ChakraProvider>
 
-    <UserList />
-   </div>
+    <CreateUser />
+   </ChakraProvider>
   );
 }
 
